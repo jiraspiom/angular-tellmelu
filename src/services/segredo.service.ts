@@ -7,8 +7,8 @@ import { Segredo } from 'src/models/Segredo';
   providedIn: 'root'
 })
 export class SegredoService {
-  private baseUrl = 'http://localhost:3000/api/segredos'
-  // private baseUrl = 'https://apisecreto.vercel.app/api/segredos'
+  // private baseUrl = 'http://localhost:3000/api/segredos'
+  private baseUrl = 'https://apisecreto.vercel.app/api/segredos'
 
   constructor(
     private http: HttpClient,
