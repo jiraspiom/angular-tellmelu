@@ -50,3 +50,6 @@ Thumbs.db
 .env.build
 .local.env
 yarn.lock
+
+[alias]
+    st = status
